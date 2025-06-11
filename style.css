@@ -7,11 +7,13 @@
 }
 
 body {
-    background-color: lightblue;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(107, 200, 231), lightblue);
     color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 h1 {
@@ -47,4 +49,3 @@ textarea {
     cursor: text;
     resize: none;
 }
-
